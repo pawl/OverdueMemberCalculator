@@ -20,4 +20,3 @@ I'm using it to dynamically create payment buttons for overdue members at my loc
 Example of a complete URL:
 
 http://dallasmakerspace.org/misc/button.html?email=paypalalerts%40dallasmakerspace.org&lastPaidYear=2011&lastPaidMonth=1&lastPaidDay=2&membershipPrice=50&memberName=Jesus
-'
