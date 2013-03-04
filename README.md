@@ -15,4 +15,7 @@ I'm using it for overdue members at my local hackerspace.
 
 Example of a complete URL:
 
-http://dallasmakerspace.org/misc/button.html?email=paypalalerts%40dallasmakerspace.org&lastPaidYear=2011&lastPaidMonth=1&lastPaidDay=2&membershipPrice=50
+http://dallasmakerspace.org/misc/button.html?email=paypalalert%40dallasmakerspace.org&lastPaidYear=2011&lastPaidMonth=1&lastPaidDay=2&membershipPrice=50
+
+Troubleshooting
+ - Using an incorrect e-mail address in email parameter will cause this issue.
