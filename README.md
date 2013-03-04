@@ -15,4 +15,4 @@ I'm using it for overdue members at my local hackerspace.
 
 Example of a complete URL:
 
-http://dallasmakerspace.org/misc/button.html?email=paypalalerts%40dallasmakerspace.org&lastPaidYear=2011&lastPaidMonth=1&lastPaidDay=2&membershipPrice=50&memberName=Jesus
+http://dallasmakerspace.org/misc/button.html?email=paypalalerts%40dallasmakerspace.org&lastPaidYear=2011&lastPaidMonth=1&lastPaidDay=2&membershipPrice=50
