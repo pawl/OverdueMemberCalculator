@@ -18,4 +18,5 @@ Example of a complete URL:
 http://dallasmakerspace.org/misc/button.html?email=paypalalert%40dallasmakerspace.org&lastPaidYear=2011&lastPaidMonth=1&lastPaidDay=2&membershipPrice=50
 
 Troubleshooting
- - Using an incorrect e-mail address in email parameter will cause this issue.
+ - Problem: "The link you have used to enter the PayPal system is invalid. Please review the link and try again."
+ - Solution: Use a correct e-mail address in email parameter. You entered one that isn't valid to paypal.
