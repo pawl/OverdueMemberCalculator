@@ -6,7 +6,7 @@ When your customer's recurring payments are suspended, and you want their due da
 
 I'm using it for overdue members at my local hackerspace.
 
-4 parameters are required in the URL:
+The following parameters are required in the URL:
  - email - URI encoded email address of your paypal account
  - lastPaidYear - 4 digit year of when the member last paid (example: 2012)
  - lastPaidMonth - month the member last paid (use numbers 1-12)
