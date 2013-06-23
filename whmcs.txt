@@ -1,0 +1,26 @@
+{php} 
+$userid = $this->get_template_vars('client_id');
+$result = mysql_query("SELECT nextduedate FROM tblhosting WHERE userid=$userid");
+$data = mysql_fetch_array($result);
+$orderdate = explode('-', $data[0]);
+$month = $orderdate[1];
+$day   = $orderdate[2];
+$year  = $orderdate[0];
+
+$result2 = mysql_query("SELECT amount FROM tblhosting WHERE userid=$userid");
+$data2 = mysql_fetch_array($result2);
+$amountArray = explode('.', $data2[0]);
+$amount = $amountArray[0];
+{/php}
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+		<title>Paypal Button</title>
+
+	</head>
+	<body>
+If you wish to continue your membership, use the following link to continue your recurring payments on their usual date and by paying your overdue amount (if applicable): {php}echo '<a href="http://dallasmakerspace.org/misc/button.html?email=paypalalert%40dallasmakerspace.org&lastPaidYear=' . $year . '&lastPaidMonth=' . $month . '&lastPaidDay=' . $day . '&membershipPrice=' . $amount . '">Link</a>'{/php}
+</body>
+</html>
