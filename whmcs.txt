@@ -21,6 +21,7 @@ $amount = $amountArray[0];
 
 	</head>
 	<body>
-If you wish to continue your membership, use the following link to continue your recurring payments on their usual date and to pay your overdue amount (if applicable): {php}echo '<a href="http://dallasmakerspace.org/misc/button.html?email=paypalalert%40dallasmakerspace.org&lastPaidYear=' . $year . '&lastPaidMonth=' . $month . '&lastPaidDay=' . $day . '&membershipPrice=' . $amount . '">Link</a>'{/php}
+<p>Dear {$client_name},</p>
+<p>If you wish to continue your membership, use the following link to continue your recurring payments on their usual date and to pay your overdue amount (if applicable): {php}echo '<a href="http://dallasmakerspace.org/misc/button.html?email=paypalalert%40dallasmakerspace.org&lastPaidYear=' . $year . '&lastPaidMonth=' . $month . '&lastPaidDay=' . $day . '&membershipPrice=' . $amount . '">Link</a>'{/php}</p>
 </body>
 </html>
