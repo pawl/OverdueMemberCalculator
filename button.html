@@ -59,7 +59,8 @@
 				var finalLastPaidDay = monthDays - currentDay + lastPaidDay;
 				if (lastPaidYear == currentYear) {
 					if (currentMonth < lastPaidMonth) {
-						alert("Last paid date is greater than current month.");
+						alert("Your dues are currently paid.");
+						//last paid date is greater than current month
 					} else if  ( currentMonth >= lastPaidMonth) {
 						var monthsLate = currentMonth - lastPaidMonth;
 					}
