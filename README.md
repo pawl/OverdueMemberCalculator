@@ -4,7 +4,7 @@ OverdueMemberCalculator
 Description: 
 When your customer's recurring payments are suspended, and you want their due date to stay the same - your only option through the paypal GUI is to give a trial date that ends on their usual payment date. With this page, you can generate a payment button that will charge the customer on their usual due date and ask them to pay what they owe.
 
-whmcs.txt - generates a link inside a WHMCS e-mail template to the OverdueMemberCalculator
+whmcs.txt - use this text inside a WHMCS e-mail template to generate a link to the OverdueMemberCalculator (note: rich text formatter must be turned off)
 
 I'm using it for overdue members at my local hackerspace.
 
