@@ -34,4 +34,6 @@ $amount = $amountArray[0];
 <p>Dear {$client_name},</p>
 <p>If you wish to continue your membership, use the following link to continue your recurring payments: {php}echo '<a href="http://dallasmakerspace.org/misc/button.html?email=paypalalert%40dallasmakerspace.org&lastPaidYear=' . $year . '&lastPaidMonth=' . $month . '&lastPaidDay=' . $day . '&membershipPrice=' . $amount . '">Link</a>'{/php}</p>
 
-<p>Note: The link will ask you to pay your overdue amount (if applicable), and it will ensure your payment restarts on its usual schedule.</p>
+<p>Note: The link will ask you to pay your overdue amount ({$client_due_invoices_balance}), and it will ensure your payment restarts on its usual schedule.</p>
+
+<p>If you have any questions, contact:</p>
