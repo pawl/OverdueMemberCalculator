@@ -36,4 +36,4 @@ $amount = $amountArray[0];
 
 <p>Note: The link will ask you to pay your overdue amount ({$client_due_invoices_balance}), and it will ensure your payment restarts on its usual schedule.</p>
 
-<p>If you have any questions, contact:</p>
+<p>If you have any questions, contact: paul.brown@dallasmakerspace.org</p>
