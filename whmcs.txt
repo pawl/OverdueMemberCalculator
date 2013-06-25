@@ -3,8 +3,8 @@ $userid = $this->get_template_vars('client_id');
 $result = mysql_query("SELECT nextduedate FROM tblhosting WHERE userid=$userid");
 $data = mysql_fetch_array($result);
 $orderdate = explode('-', $data[0]);
-if ($orderdate[1] == "12") {
-$month = "11";
+if ($orderdate[1] == "01") {
+$month = "12";
 $day   = $orderdate[2];
 $year  = (int) $orderdate[0];
 $year  = $year - 1;
